@@ -25,7 +25,14 @@ El documento HTML que crees debe incluir:
 ● Estructura completa de un documento HTML.
 ● Comentarios.
 ● Etiquetas H1, H2 y H3.
-5
 ● Uso de <div> para agrupar los trabajadores y dentro otros <div> para agrupar los
 datos personales y estudios.
 ● Uso de <pre> para alinear la información (no usar listas todavía).
+
+
+Ejercicio 4
+Partiendo del ejercicio 02 haz los siguientes cambios:
+● Elimina el formato con <pre> y usa una lista.
+● Subraya Nombre, Email y Teléfono de los datos personales de los empleados.
+Aplica los estilos necesarios para que el ejercicio se vea como el de la imagen de abajo.
+Los estilos deberán ir en un fichero css aparte del documento html.
