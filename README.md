@@ -3,18 +3,18 @@ Antonio Dominguez Carmona - adomcar0109
 Relación de ejercicios HTML y
 CSS
 
-Ejercicio 1
+<h2>Ejercicio 1</h2>
 
 A continuación, se te presenta un documento web con algunos errores de sintaxis y a nivel
 de estructura del documento web, corrígelos.
 
-Ejercicio 2
+<h2>Ejercicio 2</h2>
 
 Crea una página web con el siguiente texto formateado tal cual puedes ver en la imagen de
 la derecha.
 En este ejercicio no debes usar css.
 
-Ejercicio 3
+<h2>Ejercicio 3</h2>
 
 De cara a tener información de todos los empleados de una empresa en su intranet se
 necesitan ciertos datos en formato HTML. Los datos a incluir son:
@@ -39,7 +39,7 @@ datos personales y estudios.
 ● Uso de <pre para alinear la información (no usar listas todavía).
 
 
-Ejercicio 4
+<h2>Ejercicio 4</h2>
 
 Partiendo del ejercicio 02 haz los siguientes cambios:
 
