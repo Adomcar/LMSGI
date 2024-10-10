@@ -50,3 +50,9 @@ Partiendo del ejercicio 02 haz los siguientes cambios:
 Aplica los estilos necesarios para que el ejercicio se vea como el de la imagen de abajo.
 
 Los estilos deberán ir en un fichero css aparte del documento html.
+
+<h1>Ejercicio 5</h1>
+
+Vamos a practicar las etiquetas de quotation a la vez que le damos un poco de estilo.
+
+Los requisitos a cumplir son:
