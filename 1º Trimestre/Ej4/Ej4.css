@@ -13,9 +13,9 @@ h1,h2,h3{
 .sub{
     font-style: unset;
 }
-div.t{
+.t{
     background-color: gray;
 }
-div.in{
-    border: 3px bolder black;
+.in{
+    border: 3px solid black;
 }
