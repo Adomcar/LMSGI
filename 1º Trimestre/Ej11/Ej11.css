@@ -1,0 +1,32 @@
+body{
+    background-color: #33e7ff;
+    font-family: sans-serif;
+}
+h1{
+    margin: auto;
+    color: #005a66;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    float: inline-start;
+    width: 16rem;
+    height: 16rem;
+    overflow: auto;
+    border: 5px #005a66 dashed;
+    margin: 10px;
+    padding: 10px;
+    background-color: #00b4cc;
+    font-size: 1.5rem;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+p::first-letter{
+    float: inline-start;
+    color: #005a66;
+    font-size: 5rem;
+    font-style:5rem;
+    line-height: 3rem;
+}
