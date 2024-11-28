@@ -1,0 +1,31 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #333;
+    font-size: 20px;
+}
+h2{
+    color: #666;
+    font-size: 16px;
+}
+th{
+    color: white;
+    font-size: 16px;
+}
+a{
+    color: blue;
+    font-size: 16px;
+}
+p,li,td,tfoot{
+    color: #000;
+    font-size: 16px;
+}
+th{background-color: #666;}
+tbody{color:#fff;}
+tfoot{background-color: #ccc;}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}

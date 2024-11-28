@@ -1,0 +1,27 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#Primero{
+    background-color: gray;
+}
+h1.especial{
+    color: blue;
+}
+h2,h3{
+    border: 1px solid orange;
+}
+li{
+    color: red;
+}
+li.dos{
+    color: green;
+}
+p > img{
+    border:5px solid black;
+}
+h3.antes{background-color: pink;}
+h3.despues{background-color: blue;}
+img[alt = "segunda"]{
+    border:5px solid red;
+}
+
