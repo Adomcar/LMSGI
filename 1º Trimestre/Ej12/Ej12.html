@@ -25,14 +25,13 @@
             <label for="descripcion">Breve descripcion del proyecto:</label>
             <textarea id="descripcion" name="descripcion" rows="4"></textarea>
 
-            <label for="estado">Estado actual del proyecto:</label>
-            <select name="estado" id="estado">
-                <option value="1">En planeamiento</option>
-                <option value="2">En planificacion</option>
-                <option value="3">En ejecucion</option>
-                <option value="4">Ya finalizado</option>
-            </select>
+            <label for="estado">Estado actual del proyecto:</label><br>
 
+            <label><input type="radio" name="opcion1" value="En planteamiento"></label>
+            <label><input type="radio" name="opcion2" value="En planificacion"></label>
+            <label><input type="radio" name="opcion3" value="En Ejecucion"></label>
+            <label><input type="radio" name="opcion4" value="Ya finalizado"></label>
+            
             <label for="presuspuesto">Presupuesto aproximado (en €):</label>
             <input type="number" id="presuspuesto" name="presuspuesto" required>
 
