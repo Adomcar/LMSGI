@@ -7,6 +7,39 @@
     <link rel="stylesheet" href="Ej12.css">
 </head>
 <body>
-    
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos del proyecto</legend>
+
+            <label for="descripcion">Breve descripcion del proyecto:</label>
+            <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+
+            <label for="estado">Estado actual del proyecto:</label>
+            <select name="estado" id="estado">
+                <option value="1">En planeamiento</option>
+                <option value="2">En planificacion</option>
+                <option value="3">En ejecucion</option>
+                <option value="4">Ya finalizado</option>
+            </select>
+
+            <label for="presuspuesto">Presupuesto aproximado (en €):</label>
+            <input type="number" id="presuspuesto" name="presuspuesto" required>
+
+        </fieldset>
+
+        <input type="button" value="Enviar">
+
+    </form>
 </body>
 </html>
