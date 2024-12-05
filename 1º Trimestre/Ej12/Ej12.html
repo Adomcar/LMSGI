@@ -12,7 +12,7 @@
             <legend>Datos personales</legend>
 
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" required><br>
 
             <label for="email">Correo electrónico:</label>
             <input type="email" id="email" name="email" required>
@@ -23,21 +23,22 @@
             <legend>Datos del proyecto</legend>
 
             <label for="descripcion">Breve descripcion del proyecto:</label>
-            <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+            <textarea id="descripcion" name="descripcion" rows="4" class="abj"></textarea>
 
             <label for="estado">Estado actual del proyecto:</label><br>
 
-            <label><input type="radio" name="opcion1" value="En planteamiento"></label>
-            <label><input type="radio" name="opcion2" value="En planificacion"></label>
-            <label><input type="radio" name="opcion3" value="En Ejecucion"></label>
-            <label><input type="radio" name="opcion4" value="Ya finalizado"></label>
+            <label><input type="radio" name="opcion1" value="En planteamiento">En planteamiento</label>
+            <label><input type="radio" name="opcion2" value="En planificacion">En planificacion</label>
+            <label><input type="radio" name="opcion3" value="En Ejecucion">En Ejecucion</label>
+            <label><input type="radio" name="opcion4" value="Ya finalizado" class="abj">Ya finalizado</label>
             
             <label for="presuspuesto">Presupuesto aproximado (en €):</label>
-            <input type="number" id="presuspuesto" name="presuspuesto" required>
+            <input type="number" id="presuspuesto" name="presuspuesto" class="abj" required>
 
         </fieldset>
 
-        <input type="button" value="Enviar">
+        <div><input type="submit" value="Enviar" class="abj"></div>
+        
 
     </form>
 </body>

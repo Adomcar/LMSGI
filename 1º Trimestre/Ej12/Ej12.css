@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(255, 213, 134);
+}
 form{
     text-align: center;
     font-size: 14px;
@@ -5,17 +8,22 @@ form{
     border: 1px dotted #B8BFCB;
     border-radius: 7px;
     padding: 14px;
+    width: auto;
+    text-align: center;
+    background-color: #b1cdff;
 }
 fieldset{
     border: 1px dotted gray;
     border-radius: 6px;
     margin-bottom: 15px;
     padding: 0px 20px 0px 20px; 
+    text-align: left;
 }
 legend{
     color: gray;
     font-size: 13px;
     margin-bottom: 16px;
+    text-align: left;
 }
 input{
     background-color: white;
@@ -25,13 +33,13 @@ input{
     padding: 3px 3px 3px 10px;
     outline: none; /* Para que no se resalte el input */
 }
-input [type="submit"]{
-    padding: 6px 30pc 6px 30px;
+input[type="submit"]{
+    padding: 6px 30px 6px 30px;
     color: white;
     background-color: #2A477A;
     font-size: 14px;
 }
-input [type="submit"] :hover{
+input[type="submit"]:hover{
     color: #5376B2;
 }
 textarea{
@@ -47,12 +55,20 @@ textarea{
    font-size: 16px;
    padding: 3px 3px 3px 10px;
 }
-input:required{
+[required]{
     border-color: #4AA248;
-    text-shadow: 0px 0px 3px #4AA248;
+    box-shadow: 0px 0px 3px #4AA248;
 }
-input:invalid{
+:invalid{
     border-color: #FF7F7F;
-    text-shadow: 0px 0px 3px #FF7F7F;
+    box-shadow: 0px 0px 3px #FF7F7F;
 }
-
+.abj{
+    margin-bottom: 10px;
+}
+input[type="number"]{
+    width: 75px;
+}
+div{
+    text-align: left;
+}
