@@ -9,34 +9,53 @@ body{
 img{
     text-align: left;
 }
-nav ul {
+nav > ul {
     list-style-type: none;
     padding: 0;
-    margin: 90px 0px 0px 0px;
+    margin: 80px 0px 0px 0px;
     color: white;
     
 }
-nav ul li {
+nav > ul > li {
     margin: 0 5px;
     display: inline;
     
 }
-nav ul li a {
+nav > ul > li > a {
     color: white;
     text-decoration: none;
     padding: 5px;
 }
-li a:hover{
+li > a:hover{
     text-decoration: underline;
 }
 nav{
     display: flex;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
 }
 
 main{
-    width: 50px;
-    
+    width: 50%;
     background-color: rgb(29, 28, 28);
+    text-align: center;
+    border: 3px rgb(0, 9, 59) solid;
+    margin: auto;
+}
+li{
+    font-size: 30px;
+}
+header{
+    background-color: white;
+}
+h1{
+    border: 1px gold dotted;
+    margin: 0px 350px 0px 350px;
+    text-align: center;
+}
+header{
+    
 }
 
     
