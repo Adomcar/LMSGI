@@ -74,6 +74,5 @@ img{
 div{
     flex-direction: row;
     justify-content: space-evenly;
+    justify-items: center;
 }
-    
-    
