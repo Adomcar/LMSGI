@@ -4,29 +4,35 @@ body{
     background-attachment: fixed;
     background-size: cover;
     color:#ffec61;
-    width: 100%;
+    margin: 0;
+    width:fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
 }
-nav > ul {
-    list-style-type: none;
-    padding: 0;
-    color: white;
+
+html{
+    margin: 0;
 }
+
 nav > ul > li {
     margin: 0 5px;
     display: inline;
-    
 }
+
 nav > ul > li > a {
     color: white;
     text-decoration: none;
     padding: 5px;
 }
+
 li > a:hover{
     text-decoration: underline;
 }
+
 nav{
-    display: flex;
     background-color: #373739;
+    display: flex;
 }
 
 main{
@@ -35,44 +41,51 @@ main{
     border: 3px rgb(0, 9, 59) solid;
     margin: auto;
 }
+
 li{
     font-size: 20px;
 }
+
 header{
     background-color: white;
     display:flex;
 }
+
 h2{
     border: 1px gold dotted;
     margin: 0px 350px 0px 350px;
     text-align: center;
 }
+
 header{
     background-color:#19191a;
     font-size: 30px;
 }
+
 h1{
     margin: 0 auto;
     padding: 20px 0px 20px 0px;
 }
+
 img{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
+
 [required]{
     border-color: #4AA248;
     box-shadow: 0px 0px 3px #4AA248;
 }
+
 :invalid{
     border-color: #FF7F7F;
     box-shadow: 0px 0px 3px #FF7F7F;
 }
 .contenedor{
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: stretch;
+    justify-content: space-around;
 }
+
 @media screen and (max-width: 768px) {
     main {
         width: 90%; /* hace que el área principal sea más pequeña en pantallas pequeñas */
